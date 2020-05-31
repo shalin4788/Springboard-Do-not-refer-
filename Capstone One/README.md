@@ -1,4 +1,4 @@
-# GuidedCapstone
+# Capstone Project # 1
 
 **About**
 
