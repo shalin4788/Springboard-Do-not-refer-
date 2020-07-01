@@ -98,7 +98,11 @@ SELECT
     surname,
     joindate
 FROM
-    country_club.Members
+    country_club.Members 
+WHERE joindate =
+  (SELECT MAX(joindate) 
+   FROM 
+       country_club.Members)
 ORDER BY
     joindate DESC;
 
