@@ -6,12 +6,17 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 An existential problem for any major website today is how to handle toxic and divisive content. Quora wants to tackle this problem head-on to keep their platform a place where users can feel safe sharing their knowledge with the world.
 
 **Tasks**
+- Perform Data Wrangling on the merged traiing and test dataframe
+    - Data Collection
+    - Data Organization
+    - Data Definition
+    - Data Cleaning  
 -	Develop scalable methods to detect toxic and misleading content like:
-o	Non neutral tone
-o	Disparaging tone
-o	False information
-o	Absurd assumptions
-o	Sexual content
+    o	Non neutral tone
+    o	Disparaging tone
+    o	False information
+    o	Absurd assumptions
+    o	Sexual content
 -	Weed out insincere questions -- those founded upon false premises, or that intend to make a statement rather than look for helpful answers.
 
 **Data used**
