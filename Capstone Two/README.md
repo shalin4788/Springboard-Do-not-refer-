@@ -12,11 +12,11 @@ An existential problem for any major website today is how to handle toxic and di
     - Data Definition
     - Data Cleaning  
 -	Develop scalable methods to detect toxic and misleading content like:
-    o	Non neutral tone
-    o	Disparaging tone
-    o	False information
-    o	Absurd assumptions
-    o	Sexual content
+    - Non neutral tone
+    - Disparaging tone
+    - False information
+    - Absurd assumptions
+    - Sexual content
 -	Weed out insincere questions -- those founded upon false premises, or that intend to make a statement rather than look for helpful answers.
 
 **Data used**
