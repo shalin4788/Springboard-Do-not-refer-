@@ -29,12 +29,12 @@ The file is a matrix of about 376 thousand observations and 7 variables.
 - Data Wrangling - Extraction, cleaning of text data using functions like Stemming, Tokenization, Vectorization etc.
 - Exploratory Data Analysis (EDA) for seeing co-relation of features in the Quora data set
 - Feature Engineering (Pre-processing and training data development)
+        - After the above steps, the data was condensed into 102K observations which is further broken down into training and testing data set containing 506 features created by count vectorization of 'question_text' column
 - Modeling 
 
 As a part of modeling step,
 **Models applied**
-This is a classification problem, in supervised learning. Here we have used the following classification models:
-
+This is a classification problem, in supervised learning. Here I have applied the following classification models:
 - Logistic Regression
        - Norma
        - With L2 regularization
@@ -44,13 +44,13 @@ This is a classification problem, in supervised learning. Here we have used the 
 - Gradient Boost
 
 **Model Evaluation**
-- Using metrics like Precision, Accuracy, Recall, f1 score, ROC AUC score
-- Built confusion matrix to see false positives and false negatives after running each model against the training set and running predictions against validation set
+- Used metrics like Precision, Accuracy, Recall, f1 score, ROC AUC score to evaluate model performance
+- Built confusion matrix to see false positives and false negatives after running each model against the training dataset and computing predictions against validation dataset
 - f1 weighted score and ROC AUC score were used for shortlisting best performing models
 
-Additionally, hyperparameter tuning was done on the best models to enhance performance on the chosen shortlisted models.
-Also, Cross validation using Grid search was applied to pick up random pairs of training and validation data by splitting the training set iinto k smaller sets, where a model is trained using k-1 of the folds as training data and the model is validated on the remaining part.
-Model was saved for future application 
+- Additionally, hyperparameter tuning was done on the best performing shortlisted model(s) to enhance performance.
+- Also, Cross validation using Grid search was applied to pick up random pairs of training and validation data by splitting the training set into k smaller sets, where a model is trained using k-1 of the folds as training data and the model is validated on the remaining part.
+- Eventually, model was saved for future application
 
 **Unseen test data prediction**
 Saved model was applied on the unseen test dataset, fitted and prediction done, scores measured to evaluate how efficient the model was.
