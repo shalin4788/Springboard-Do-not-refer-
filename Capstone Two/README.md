@@ -25,6 +25,36 @@ Data files contain
 -	Number of word embeddings along with the dataset that can be used in the models
 The file is a matrix of about 376 thousand observations and 7 variables.
 
+**Steps performed**
+- Data Wrangling - Extraction, cleaning of text data using functions like Stemming, Tokenization, Vectorization etc.
+- Exploratory Data Analysis (EDA) for seeing co-relation of features in the Quora data set
+- Feature Engineering (Pre-processing and training data development)
+- Modeling 
+
+As a part of modeling step,
+**Models applied**
+This is a classification problem, in supervised learning. Here we have used the following classification models:
+
+- Logistic Regression
+       - Norma
+       - With L2 regularization
+- Naive Bayes
+- Decision Trees
+- Random Forest
+- Gradient Boost
+
+**Model Evaluation**
+- Using metrics like Precision, Accuracy, Recall, f1 score, ROC AUC score
+- Built confusion matrix to see false positives and false negatives after running each model against the training set and running predictions against validation set
+- f1 weighted score and ROC AUC score were used for shortlisting best performing models
+
+Additionally, hyperparameter tuning was done on the best models to enhance performance on the chosen shortlisted models.
+Also, Cross validation using Grid search was applied to pick up random pairs of training and validation data by splitting the training set iinto k smaller sets, where a model is trained using k-1 of the folds as training data and the model is validated on the remaining part.
+Model was saved for future application 
+
+**Unseen test data prediction**
+Saved model was applied on the unseen test dataset, fitted and prediction done, scores measured to evaluate how efficient the model was.
+
 ## References
 
 https://medium.com/@datamonsters/text-preprocessing-in-python-steps-tools-and-examples-bf025f872908
