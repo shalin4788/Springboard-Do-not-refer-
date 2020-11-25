@@ -26,11 +26,11 @@ Data files contain
 The file is a matrix of about 376 thousand observations and 7 variables.
 
 **Steps performed**
-- Data Wrangling - Extraction, cleaning of text data using functions like Stemming, Tokenization, Vectorization etc.
-- Exploratory Data Analysis (EDA) for seeing co-relation of features in the Quora data set
-- Feature Engineering (Pre-processing and training data development)
+- **Data Wrangling** - Extraction, cleaning of text data by removing punctuations, NaN, used functions like Stemming, Tokenization, Vectorization etc.
+- **Exploratory Data Analysis (EDA)** -  for seeing co-relation of features in the Quora data set, created unigrams, bigrams, word cloud and 3d scatter plots for this purpose
+- **Feature Engineering** (Pre-processing and training data development) - Performed numeric variable scaling, TFIDF vectorization to generate categorical variables as features to generate an updated feature engineered dataset. Thereafter broke the dataset into training and test data set
         - After the above steps, the data was condensed into 102K observations which is further broken down into training and testing data set containing 506 features created by count vectorization of 'question_text' column
-- Modeling 
+- **Modeling**  - See details below
 
 As a part of modeling step,
 **Models applied**
