@@ -54,3 +54,7 @@ https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.tex
 https://medium.com/@dudsdu/an-example-of-word-cloud-with-mask-4cbbd699fb14
 
 https://discuss.python.org/t/countvectorizer-throwing-valueerror-empty-vocabulary-perhaps-the-documents-only-contain-stop-words/5388/2
+
+https://stackoverflow.com/questions/23939750/understanding-max-features-parameter-in-randomforestregressor
+
+https://stackoverflow.com/questions/20662023/save-python-random-forest-model-to-file
