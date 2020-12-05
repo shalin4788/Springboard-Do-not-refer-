@@ -2,18 +2,17 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 
 # Project Organization
 
-├── LICENSE
 ├── README.md          <- The top-level README for developers using this project.
 │
 ├── data
 │   ├── interim        <- Intermediate data that has been transformed.
-│       └── train.csv
+│       ├── train.csv
 │       └── test.csv
 │   ├── processed      <- The final, canonical data sets for modeling.
-│       └── FeatureEngineering_tfidf_Train.csv
+│       ├── FeatureEngineering_tfidf_Train.csv
 │       └──FeatureEngineering_tfidf_Test.csv
 │   └── raw            <- The original, immutable data dump.
-│       └── train.csv
+│       ├── train.csv
 │       └── test.csv
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
@@ -27,7 +26,7 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 │   └── TBD
 │                      
 └── src                <- Source code for use in this project.
-    └── figures        <- Scripts to download or generate figures
+    ├── figures        <- Scripts to download or generate figures
     └── models         <- Scripts to download or generate model generated for future test data prediction
 
 Project based on the cookiecutter data science project template. #cookiecutterdatascience
