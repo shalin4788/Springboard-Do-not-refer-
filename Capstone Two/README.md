@@ -33,6 +33,7 @@ The file is a matrix of about 376 thousand observations and 7 variables.
 - **Modeling**  - See details below
 
 As a part of modeling step,
+
 **Models applied**
 This is a classification problem, in supervised learning. Here I have applied the following classification models:
 - Logistic Regression
