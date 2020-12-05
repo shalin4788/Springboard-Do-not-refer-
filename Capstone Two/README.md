@@ -120,3 +120,5 @@ https://discuss.python.org/t/countvectorizer-throwing-valueerror-empty-vocabular
 https://stackoverflow.com/questions/23939750/understanding-max-features-parameter-in-randomforestregressor
 
 https://stackoverflow.com/questions/20662023/save-python-random-forest-model-to-file
+
+https://drivendata.github.io/cookiecutter-data-science/
