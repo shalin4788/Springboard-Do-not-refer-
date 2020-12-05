@@ -1,5 +1,37 @@
 https://www.kaggle.com/c/quora-insincere-questions-classification
 
+# Project Organization
+
+├── LICENSE
+├── README.md          <- The top-level README for developers using this project.
+│
+├── data
+│   ├── interim        <- Intermediate data that has been transformed.
+│       └── train.csv
+│       └── test.csv
+│   ├── processed      <- The final, canonical data sets for modeling.
+│       └── FeatureEngineering_tfidf_Train.csv
+│       └──FeatureEngineering_tfidf_Test.csv
+│   └── raw            <- The original, immutable data dump.
+│       └── train.csv
+│       └── test.csv
+│
+├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+│   ├── 1. Quora Insincere Capstone Data Wrangling.ipynb
+│   ├── 2. EDA_Quora Insincere Capstone Data.ipynb
+│   ├── 3. Preprocessing and Training Data Development.ipynb
+│   └── 4. Quora Insincere Classification - Modeling Step.ipynb 
+│
+├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+│   ├── Final_Rep_Quora_Insincere_Classification.docx
+│   └── TBD
+│                      
+└── src                <- Source code for use in this project.
+    └── figures        <- Scripts to download or generate figures
+    └── models         <- Scripts to download or generate model generated for future test data prediction
+
+Project based on the cookiecutter data science project template. #cookiecutterdatascience
+
 # Description
 
 **Problem**
