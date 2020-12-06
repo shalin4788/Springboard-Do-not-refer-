@@ -4,22 +4,25 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 
 ```
 ├── LICENSE
-├── Makefile           <- Makefile with commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
+├── Makefile                <- Makefile with commands like `make data` or `make train`
+├── README.md               <- The top-level README for developers using this project.
 ├── data
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
+│   ├── interim             <- Intermediate data that has been transformed.
+│   ├── processed           <- The final, canonical data sets for modeling.
+│   └── raw                 <- The original, immutable data dump.
 │
-├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+├── docs                    <- A default Sphinx project; see sphinx-doc.org for details
 │
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│   └── RandomForestModel    <- Generated graphics and figures to be used in reporting
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── models                  <- Trained and serialized models, model predictions, or model summaries
+│   └── RandomForestModel        <- Generated graphics and figures to be used in reporting
+├── notebooks               <- Jupyter notebooks. Naming convention is a number (for ordering),
+│   ├── 1. Quora Insincere Capstone Data Wrangling.ipynb
+│   ├── 2. EDA_Quora Insincere Capstone Data.ipynb
+│   ├── 3. Preprocessing and Training Data Development,ipynb
+│   └── 4. Quora Insincere Classification - Modeling Step.ipynb                                       
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+│   └── references.txt <- All project references - stackoverflow urls etc.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
 │   └── finalreport    <- Generated graphics and figures to be used in reporting
@@ -31,13 +34,10 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 ├── src                <- Source code for use in this project.
 │   ├── __init__.py    <- Makes src a Python module
 │   │
-│   ├── models         <- Scripts to train models and then use trained models to make
-│   │   │                 predictions
-│   │   ├── RandomForestModel.py
-│   │   └── train_model.py
+│   ├── figures         <- Saved EDA and model files
 │   │
-│   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-│       └── visualize.py
+│   ├── models         <- Scripts to train models and then use trained models to make predictions
+│   │   └── RandomForestModel.py
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 ```
