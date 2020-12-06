@@ -12,11 +12,12 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 │   └── raw                 <- The original, immutable data dump.
 │
 ├── docs                    <- A default Sphinx project; see sphinx-doc.org for details
-│
-├── figures                  <- All EDA and model saved images
+│   └── Problem Statement
+|
+├── figures                 <- All EDA and model saved images
 |
 ├── models                  <- Trained and serialized models, model predictions, or model summaries
-│   └── RandomForestModel        <- Generated graphics and figures to be used in reporting
+│   └── RandomForestModel   <- Generated graphics and figures to be used in reporting
 |
 ├── notebooks                <- Jupyter notebooks. Naming convention is a number (for ordering),
 │   ├── 1. Quora Insincere Capstone Data Wrangling.ipynb
