@@ -13,10 +13,10 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 │
 ├── docs                    <- A default Sphinx project; see sphinx-doc.org for details
 │
+├── figures                  <- All EDA and model saved images
+|
 ├── models                  <- Trained and serialized models, model predictions, or model summaries
 │   └── RandomForestModel        <- Generated graphics and figures to be used in reporting
-|
-├── figures                  <- All EDA and model saved images
 |
 ├── notebooks                <- Jupyter notebooks. Naming convention is a number (for ordering),
 │   ├── 1. Quora Insincere Capstone Data Wrangling.ipynb
@@ -34,13 +34,9 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 │                         generated with `pip freeze > requirements.txt`
 │
 ├── setup.py           <- Make this project pip installable with `pip install -e`
-├── src                <- Source code for use in this project.
-│   ├── __init__.py    <- Makes src a Python module
-│   │
-│   ├── figures         <- Saved EDA and model files
-│   │
-│   ├── models         <- Scripts to train models and then use trained models to make predictions
-│   │   └── RandomForestModel.py
+├──  src                <- Source code for use in this project.
+|    └── data           <- Scripts to download or generate data
+|       └── make_dataset.py
 │
 └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 ```
