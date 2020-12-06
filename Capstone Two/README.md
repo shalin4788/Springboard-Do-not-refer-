@@ -15,7 +15,10 @@ https://www.kaggle.com/c/quora-insincere-questions-classification
 │
 ├── models                  <- Trained and serialized models, model predictions, or model summaries
 │   └── RandomForestModel        <- Generated graphics and figures to be used in reporting
-├── notebooks               <- Jupyter notebooks. Naming convention is a number (for ordering),
+|
+├── figures                  <- All EDA and model saved images
+|
+├── notebooks                <- Jupyter notebooks. Naming convention is a number (for ordering),
 │   ├── 1. Quora Insincere Capstone Data Wrangling.ipynb
 │   ├── 2. EDA_Quora Insincere Capstone Data.ipynb
 │   ├── 3. Preprocessing and Training Data Development,ipynb
