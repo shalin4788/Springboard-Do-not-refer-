@@ -88,6 +88,8 @@ This is a classification problem, in supervised learning. Here I have applied th
 - Used metrics like Precision, Accuracy, Recall, f1 score, ROC AUC score to evaluate model performance.
 - Built confusion matrix to see false positives and false negatives after running each model against the training dataset and computing predictions against validation dataset.
 - f1 weighted score and ROC AUC score were used as primary metrics for determining best performing models.
+
+**Hyperparameter tuning and model optimization**
 - Additionally, hyperparameter tuning was done on the best performing shortlisted model(s) to enhance performance.
 - Also, Cross validation using Grid search was applied to pick up random pairs of training and validation data by splitting the training set into k smaller sets, where a model is trained using k-1 of the folds as training data and the model is validated on the remaining part.
 
