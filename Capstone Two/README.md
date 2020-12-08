@@ -20,7 +20,7 @@
 ├── notebooks                <- Jupyter notebooks. Naming convention is a number (for ordering),
 │   ├── 1. Quora Insincere Capstone Data Wrangling.ipynb
 │   ├── 2. EDA_Quora Insincere Capstone Data.ipynb
-│   ├── 3. Preprocessing and Training Data Development,ipynb
+│   ├── 3. Preprocessing and Training Data Development.ipynb
 │   └── 4. Quora Insincere Classification - Modeling Step.ipynb                                       
 │
 ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
