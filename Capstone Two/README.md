@@ -27,7 +27,8 @@
 │   └── references.txt <- All project references - stackoverflow urls etc.
 │
 ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── finalreport    <- Generated graphics and figures to be used in reporting
+│   ├── Capstone_Presentation.pptx                       <- Final presentation
+│   └── Final_Rep_Quora_Insincere_Classification.docx    <- Final report
 │
 ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
 │                         generated with `pip freeze > requirements.txt`
